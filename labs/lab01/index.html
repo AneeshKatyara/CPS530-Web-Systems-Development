@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kangchenjunga — CPS530 Lab 01</title>
+<meta name="description" content="CPS530 Lab 01: A simple HTML page about
+Kangchenjunga, one of Earth's highest mountains. Includes image, media, favicon, and
+inline-styled decorative elements." />
+<link rel="icon" type="image/svg+xml"
+href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0
+64 64'%3E%3Cpath d='M4 52 L24 20 L32 32 L40 20 L60 52 Z' fill='%23007acc'/%3E%3Ccircle
+cx='24' cy='20' r='2' fill='%23ffffff'/%3E%3Ccircle cx='40' cy='20' r='2'
+fill='%23ffffff'/%3E%3C/svg%3E" />
+</head>
+<body style="
+margin:0;
+font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+line-height:1.6;
+color:#0f172a;
+background: linear-gradient(135deg, #f8fafc 0%, #e2f2ff 100%);
+">
+<main style="max-width: 980px; margin: 0 auto; padding: 24px;">
+<header style="
+background:#ffffff;
+border: 3px solid #bae6fd;
+border-radius: 16px;
+padding: 20px 24px;
+box-shadow: 0 10px 24px rgba(2,132,199,0.15);
+margin-bottom: 24px;
+">
+<h1 style="margin: 0 0 6px 0; font-size: clamp(28px, 5vw, 44px); color:#0369a1;">
+Kangchenjunga
+</h1>
+<p style="margin: 6px 0 0 0; font-size: 1.05rem; color:#0b4a6f;">
+A brief, student-built page about one of Earth’s highest peaks—crafted with
+pure HTML and inline styles only.
+</p>
+</header>
+<section aria-labelledby="about" style="display: grid; gap: 20px;">
+<h2 id="about" style="font-size: 1.6rem; color:#075985; margin: 0;">
+About the Mountain
+</h2>
+<p style="margin:0;">
+<strong>Kangchenjunga</strong> is the world’s third-highest mountain, located
+in the eastern Himalayas on the border of Nepal and India.
+It is renowned for its dramatic five-summit massif, remote approaches, and
+cultural significance to nearby communities.
+Climbers respect Kangchenjunga for its technical difficulty and unpredictable
+weather, which contribute to its formidable reputation.
+</p>
+<!-- === IMAGE SECTION === -->
+<figure style="
+background:#ffffff;
+border: 2px solid #93c5fd;
+border-radius: 14px;
+padding: 14px;
+margin: 0;
+box-shadow: 0 8px 18px rgba(2,132,199,0.12);
+">
+<img
+src="download.jpeg"
+alt="Kangchenjunga trekking view"
+style="display:block; width:100%; height:auto; border-radius: 10px;"
+/>
+<figcaption style="font-size: 0.95rem; color:#0369a1; margin-top: 8px;">
+(Image credit: Tranquil Kilimanjaro)
+</figcaption>
+</figure>
+<!-- === END IMAGE SECTION === -->
+<!-- === VIDEO SECTION === -->
+<div style="
+background:#ffffff;
+border: 2px dashed #7dd3fc;
+border-radius: 14px;
+padding: 16px;
+">
+<h3 style="margin:0 0 8px 0; color:#0ea5e9; font-size:1.25rem;">Watch
+Kangchenjunga</h3>
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/8ATFbAVMOzk"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture"
+allowfullscreen
+style="border-radius: 10px;"
+></iframe>
+</div>
+<!-- === END VIDEO SECTION === -->
+<p style="margin:0;">
+Learn more:
+<a href="https://en.wikipedia.org/wiki/Kangchenjunga" target="_blank"
+style="color:#0369a1; font-weight:600; text-decoration: underline;">
+Kangchenjunga on Wikipedia
+</a>
+(<a href="https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth"
+target="_blank" style="color:#0369a1;">Highest Mountains List</a>)
+</p>
+</section>
+<footer style="margin-top: 28px; font-size: 0.9rem; color:#083344;">
+<hr style="border:none; border-top: 2px solid #93c5fd; margin: 16px 0;" />
+<p style="margin:0;">
+</p>
+</footer>
+</main>
+</body>
+</html>
