@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lab 07b</title>
+</head>
+<body>
+<h2>Bed & Breakfast Reservation Form</h2>
+<form method="post" action="cgi-bin/lab07b.cgi">
+<h3>Name:</h3>
+<p>First Name: <input type="text" name="fname"></p>
+<p>Last Name: <input type="text" name="lname"></p>
+<h3>Address:</h3>
+<p>Street: <input type="text" name="street"></p>
+<p>City: <input type="text" name="city"></p>
+<p>Postal Code: <input type="text" name="postal" placeholder="L0L 0L0"></p>
+<p>Province:
+<select name="province">
+<option value="">--Select--</option>
+<option>AB</option><option>BC</option><option>MB</option><option>NB</option>
+<option>NL</option><option>NS</option><option>NT</option><option>NU</option>
+<option>ON</option><option>PE</option><option>QC</option><option>SK</option><option>YT
+</option>
+</select>
+</p>
+<h3>Contact Information:</h3>
+<p>Phone Number: <input type="text" name="phone"></p>
+<p>Email Address: <input type="text" name="email"></p>
+<h3>Payment Information:</h3>
+<p>
+<select name="payment">
+<option value="">--Select Payment--</option>
+<option>Visa</option>
+<option>MasterCard</option>
+<option>American Express</option>
+<option>Paypal</option>
+</select>
+</p>
+<p><input type="submit" value="Submit Reservation"></p>
+</form>
+</body>
+</html>
