@@ -18,10 +18,6 @@ Allows users to select a favourite image, which is stored using cookies. The sel
 ## Live Page
 - https://cs.torontomu.ca/~akatyara/lab08/lab08.php
 
-## Files
-- [CPS530 Lab 08 Report.pdf](./CPS530%20Lab%2008%20Report.pdf)
-- `lab08.php` – PHP file containing all three problems
-
 ## Technologies
 - PHP  
 - HTML  
